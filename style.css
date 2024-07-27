@@ -1,0 +1,207 @@
+.whole_whole_container1{
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-left: 300px;
+    margin-top: 80px;
+    width: 600px;
+   }
+  .whole_container {
+    border: 3px;
+    border-radius: 17px;
+    background-image: linear-gradient(
+      hsl(252, 100%, 67%),
+      hsl(241, 81%, 54%)
+    );
+    width: 250px;
+    height: 70vh;
+    text-align: center;
+    margin-left: 50px;
+    z-index:1;
+    
+  }
+  .yourresume {
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(223, 217, 217);
+    padding-top: 20px;
+  }
+  .great {
+    color: white;
+    text-align: center;
+    font-weight: 4px;
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  .great p {
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 10px;
+    color: rgb(223, 217, 217);
+  }
+  .second_container {
+    border: 3px;
+    border-color: black;
+    border-radius: 20px;
+   padding: 20px;
+    width: 250px;
+    height: 63vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index:0;
+  }
+  .second_container .h3 {
+    font-size: xx-small;
+  }
+  .summary {
+    color: black;
+    text-align: left;
+  }
+  .second_container .li1 {
+    color: red;
+    border: 3px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: hsl(0, 100%, 95%);
+    width: 230px;
+    height: 8vh;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  .second_container .li2 {
+    color: yellow;
+    border: 3px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: hsl(39, 100%, 95%);
+    margin-top: 10px;
+    width: 230px;
+    height: 8vh;
+    margin-left: 5px;
+  }
+  .second_container .li3 {
+    color: green;
+    border: 3px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: hsl(166, 100%, 95%);
+    width: 230px;
+    height: 8vh;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  .second_container .li4 {
+    color: darkblue;
+    border: 3px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: hsl(234, 85%, 95%);
+    width: 230px;
+    height: 8vh;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  .whole_whole_container1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .number {
+    width: 130px;
+    height: 120px;
+    background-color: transparent;
+    border-radius: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 60px;
+    padding-top: 2px;
+    margin-top: 30px;
+    text-align: center;
+    color:white;
+    
+}
+.number h1{
+    font-size: 40px;
+    margin-top: 24px;
+    text-align: center;
+    line-height: 20px;
+    
+  }
+  .number h4{
+    color: rgb(223, 217, 217);
+      font-size: 15px;
+      margin-left: 10px;
+      
+  }
+  .buttonclass{
+    width: 230px;
+    height: 8vh;
+    border-radius: 25px;
+    background-color: rgb(36, 36, 82) ;
+    color: white;
+    margin-top: 20px;
+  }
+  .li1 p {
+     line-height: 40px;
+      margin-left: 40px;
+     
+  }
+  .li2 p {
+     line-height: 40px;
+      margin-left: 40px;
+     
+  }
+  .li3 p {
+     line-height: 40px;
+      margin-left: 40px;
+     
+  }
+  .li4 p {
+     line-height: 40px;
+      margin-left: 40px;
+     
+  }
+  .bet{
+      margin-left: 70px;
+      color: rgb(15, 15, 19);
+      
+  }
+  .bet1{
+    margin-left: 85px;
+    color: rgb(14, 14, 15);
+  }@media (max-width: 768px) {
+    .whole_whole_container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .whole_container, .second_container {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .number {
+        width: 100px;
+        height: 100px;
+    }
+
+    .number h1 {
+        font-size: 30px;
+    }
+
+    .great {
+        font-size: 20px;
+    }
+
+    .great p {
+        font-size: 14px;
+    }
+
+    .yourresume {
+        font-size: 16px;
+    }
+
+    .second_container .li1,
+    .second_container .li2,
+    .second_container .li3,
+    .second_container .li4 {
+        font-size: 14px;
+    }
+}
